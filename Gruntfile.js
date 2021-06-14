@@ -18,9 +18,8 @@ module.exports = function(grunt) {
         'release': {
             'options': {
                 'github': {
-                    'repo': 'mrvisser/node-readcommand',
-                    'usernameVar': 'GITHUB_USERNAME',
-                    'passwordVar': 'GITHUB_PASSWORD'
+                    'repo': 'wolfy01/node-corporal',
+                    'accessTokenVar': 'GITHUB_ACCESS_TOKEN',
                 }
             }
         }
