@@ -2,7 +2,7 @@
   "name": "readcommand",
   "description": "An extension to readline that reads and parses a multi-line shell command",
   "version": "0.3.0",
-  "homepage": "https://github.com/mrvisser/node-readcommand",
+  "homepage": "https://github.com/wolfy01/node-readcommand",
   "keywords": [
     "arguments",
     "argv",
@@ -12,20 +12,17 @@
     "shell"
   ],
   "author": {
-    "name": "Branden Visser",
-    "email": "mrvisser@gmail.com"
+    "name": "Wolfy01",
+    "email": "wolfy3543@gmail.com"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mrvisser/node-readcommand.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mrvisser/node-readcommand/issues"
+    "url": "git://github.com/wolfy01/node-readcommand.git"
   },
   "main": "./index.js",
   "dependencies": {
-    "underscore": "1.6.x"
+    "underscore": "1.13.1"
   },
   "devDependencies": {
     "grunt": "latest",
