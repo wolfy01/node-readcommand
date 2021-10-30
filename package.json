@@ -1,41 +1,41 @@
 {
-  "name": "wolfy01-readcommand",
-  "description": "An extension to readline that reads and parses a multi-line shell command. (This package was not made by me, it was made by mrvisser. This package is meant for my projects. Please use the original.)",
-  "version": "0.4.0",
-  "homepage": "https://github.com/wolfy01/node-readcommand",
-  "keywords": [
-    "arguments",
-    "argv",
-    "command",
-    "commands",
-    "parse",
-    "shell"
-  ],
-  "author": {
-    "name": "Wolfy01",
-    "email": "wolfy3543@gmail.com"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/wolfy01/node-readcommand.git"
-  },
-  "main": "./index.js",
-  "dependencies": {
-    "underscore": "1.13.1",
-  },
-  "devDependencies": {
-    "mocha": "^9.0.1",
-    "release-it": "^14.10.0"
-  },
-  "scripts": {
-    "release": "release-it",
-    "test": "mocha tests/**.js"
-  },
-  "engines": {
-    "node": ">=0.8"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  }
+	"name": "wolfy01-readcommand",
+	"description": "An extension to readline that reads and parses a multi-line shell command. (This package was not made by me, it was made by mrvisser. This package is meant for my projects. Please use the original.)",
+	"version": "0.4.3",
+	"homepage": "https://github.com/wolfy01/node-readcommand",
+	"keywords": [
+		"arguments",
+		"argv",
+		"command",
+		"commands",
+		"parse",
+		"shell"
+	],
+	"author": {
+		"name": "Wolfy01",
+		"email": "wolfy3543@gmail.com"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/wolfy01/node-readcommand.git"
+	},
+	"main": "./index.js",
+	"dependencies": {
+		"underscore": "1.13.1"
+	},
+	"devDependencies": {
+		"mocha": "^9.0.1",
+		"release-it": "^14.10.0"
+	},
+	"scripts": {
+		"release": "release-it",
+		"test": "mocha tests/**.js"
+	},
+	"engines": {
+		"node": ">=0.8"
+	},
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/"
+	}
 }
